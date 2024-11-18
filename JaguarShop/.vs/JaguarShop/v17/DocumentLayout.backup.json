@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\diede\\Desktop\\Programming Lenguages\\PROYECTOS\\JaguarShop\\JaguarShop-Code\\JaguarShop\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{182ED5AE-EC46-434D-9096-CE35F34948C2}|JaguarShop\\JaguarShop.csproj|c:\\users\\diede\\desktop\\programming lenguages\\proyectos\\jaguarshop\\jaguarshop-code\\jaguarshop\\jaguarshop\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{182ED5AE-EC46-434D-9096-CE35F34948C2}|JaguarShop\\JaguarShop.csproj|solutionrelative:jaguarshop\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{182ED5AE-EC46-434D-9096-CE35F34948C2}|JaguarShop\\JaguarShop.csproj|c:\\users\\diede\\desktop\\programming lenguages\\proyectos\\jaguarshop\\jaguarshop-code\\jaguarshop\\jaguarshop\\forms\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{182ED5AE-EC46-434D-9096-CE35F34948C2}|JaguarShop\\JaguarShop.csproj|solutionrelative:jaguarshop\\forms\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{182ED5AE-EC46-434D-9096-CE35F34948C2}|JaguarShop\\JaguarShop.csproj|c:\\users\\diede\\desktop\\programming lenguages\\proyectos\\jaguarshop\\jaguarshop-code\\jaguarshop\\jaguarshop\\forms\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{182ED5AE-EC46-434D-9096-CE35F34948C2}|JaguarShop\\JaguarShop.csproj|solutionrelative:jaguarshop\\forms\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{182ED5AE-EC46-434D-9096-CE35F34948C2}|JaguarShop\\JaguarShop.csproj|c:\\users\\diede\\desktop\\programming lenguages\\proyectos\\jaguarshop\\jaguarshop-code\\jaguarshop\\jaguarshop\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{182ED5AE-EC46-434D-9096-CE35F34948C2}|JaguarShop\\JaguarShop.csproj|solutionrelative:jaguarshop\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{182ED5AE-EC46-434D-9096-CE35F34948C2}|JaguarShop\\JaguarShop.csproj|c:\\users\\diede\\desktop\\programming lenguages\\proyectos\\jaguarshop\\jaguarshop-code\\jaguarshop\\jaguarshop\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{182ED5AE-EC46-434D-9096-CE35F34948C2}|JaguarShop\\JaguarShop.csproj|solutionrelative:jaguarshop\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -22,12 +34,50 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Register.cs",
+              "DocumentMoniker": "C:\\Users\\diede\\Desktop\\Programming Lenguages\\PROYECTOS\\JaguarShop\\JaguarShop-Code\\JaguarShop\\JaguarShop\\Forms\\Register.cs",
+              "RelativeDocumentMoniker": "JaguarShop\\Forms\\Register.cs",
+              "ToolTip": "C:\\Users\\diede\\Desktop\\Programming Lenguages\\PROYECTOS\\JaguarShop\\JaguarShop-Code\\JaguarShop\\JaguarShop\\Forms\\Register.cs",
+              "RelativeToolTip": "JaguarShop\\Forms\\Register.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T02:05:49.421Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Form1.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\diede\\Desktop\\Programming Lenguages\\PROYECTOS\\JaguarShop\\JaguarShop-Code\\JaguarShop\\JaguarShop\\Form1.cs",
-              "RelativeDocumentMoniker": "JaguarShop\\Form1.cs",
-              "ToolTip": "C:\\Users\\diede\\Desktop\\Programming Lenguages\\PROYECTOS\\JaguarShop\\JaguarShop-Code\\JaguarShop\\JaguarShop\\Form1.cs [Dise\u00F1o]",
-              "RelativeToolTip": "JaguarShop\\Form1.cs [Dise\u00F1o]",
+              "Title": "Register.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\diede\\Desktop\\Programming Lenguages\\PROYECTOS\\JaguarShop\\JaguarShop-Code\\JaguarShop\\JaguarShop\\Forms\\Register.cs",
+              "RelativeDocumentMoniker": "JaguarShop\\Forms\\Register.cs",
+              "ToolTip": "C:\\Users\\diede\\Desktop\\Programming Lenguages\\PROYECTOS\\JaguarShop\\JaguarShop-Code\\JaguarShop\\JaguarShop\\Forms\\Register.cs [Dise\u00F1o]",
+              "RelativeToolTip": "JaguarShop\\Forms\\Register.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T02:05:23.405Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Login.cs",
+              "DocumentMoniker": "C:\\Users\\diede\\Desktop\\Programming Lenguages\\PROYECTOS\\JaguarShop\\JaguarShop-Code\\JaguarShop\\JaguarShop\\Login.cs",
+              "RelativeDocumentMoniker": "JaguarShop\\Login.cs",
+              "ToolTip": "C:\\Users\\diede\\Desktop\\Programming Lenguages\\PROYECTOS\\JaguarShop\\JaguarShop-Code\\JaguarShop\\JaguarShop\\Login.cs",
+              "RelativeToolTip": "JaguarShop\\Login.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAswE4AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T01:35:03.795Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Login.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\diede\\Desktop\\Programming Lenguages\\PROYECTOS\\JaguarShop\\JaguarShop-Code\\JaguarShop\\JaguarShop\\Login.cs",
+              "RelativeDocumentMoniker": "JaguarShop\\Login.cs",
+              "ToolTip": "C:\\Users\\diede\\Desktop\\Programming Lenguages\\PROYECTOS\\JaguarShop\\JaguarShop-Code\\JaguarShop\\JaguarShop\\Login.cs [Dise\u00F1o]",
+              "RelativeToolTip": "JaguarShop\\Login.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-18T01:28:45.717Z",
               "EditorCaption": " [Dise\u00F1o]"
