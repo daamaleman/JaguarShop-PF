@@ -1,0 +1,40 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\diede\\Desktop\\Programming Lenguages\\PROYECTOS\\JaguarShop\\JaguarShop-Code\\JaguarShop\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{182ED5AE-EC46-434D-9096-CE35F34948C2}|JaguarShop\\JaguarShop.csproj|c:\\users\\diede\\desktop\\programming lenguages\\proyectos\\jaguarshop\\jaguarshop-code\\jaguarshop\\jaguarshop\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{182ED5AE-EC46-434D-9096-CE35F34948C2}|JaguarShop\\JaguarShop.csproj|solutionrelative:jaguarshop\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\diede\\Desktop\\Programming Lenguages\\PROYECTOS\\JaguarShop\\JaguarShop-Code\\JaguarShop\\JaguarShop\\Form1.cs",
+              "RelativeDocumentMoniker": "JaguarShop\\Form1.cs",
+              "ToolTip": "C:\\Users\\diede\\Desktop\\Programming Lenguages\\PROYECTOS\\JaguarShop\\JaguarShop-Code\\JaguarShop\\JaguarShop\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "JaguarShop\\Form1.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T01:28:45.717Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
