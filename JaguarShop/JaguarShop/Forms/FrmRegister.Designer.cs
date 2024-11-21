@@ -1,6 +1,6 @@
 ﻿namespace JaguarShop.Forms
 {
-    partial class Register
+    partial class FrmRegister
     {
         /// <summary>
         /// Required designer variable.
@@ -43,6 +43,8 @@
             this.TxtRegisterVPassword = new MetroFramework.Controls.MetroTextBox();
             this.CbxSeePw = new MetroFramework.Controls.MetroCheckBox();
             this.CbxSeeVPw = new MetroFramework.Controls.MetroCheckBox();
+            this.PbxRegisterLogo = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.PbxRegisterLogo)).BeginInit();
             this.SuspendLayout();
             // 
             // LblRegisterFullName
@@ -51,7 +53,7 @@
             this.LblRegisterFullName.Location = new System.Drawing.Point(122, 318);
             this.LblRegisterFullName.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.LblRegisterFullName.Name = "LblRegisterFullName";
-            this.LblRegisterFullName.Size = new System.Drawing.Size(125, 19);
+            this.LblRegisterFullName.Size = new System.Drawing.Size(128, 20);
             this.LblRegisterFullName.TabIndex = 0;
             this.LblRegisterFullName.Text = "Nombre Completo:";
             // 
@@ -61,10 +63,10 @@
             // 
             // 
             this.TxtRegisterFullName.CustomButton.Image = null;
-            this.TxtRegisterFullName.CustomButton.Location = new System.Drawing.Point(351, 2);
+            this.TxtRegisterFullName.CustomButton.Location = new System.Drawing.Point(234, 1);
             this.TxtRegisterFullName.CustomButton.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.TxtRegisterFullName.CustomButton.Name = "";
-            this.TxtRegisterFullName.CustomButton.Size = new System.Drawing.Size(50, 51);
+            this.TxtRegisterFullName.CustomButton.Size = new System.Drawing.Size(33, 33);
             this.TxtRegisterFullName.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
             this.TxtRegisterFullName.CustomButton.TabIndex = 1;
             this.TxtRegisterFullName.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
@@ -94,7 +96,7 @@
             this.LblRegisterEmail.Location = new System.Drawing.Point(122, 394);
             this.LblRegisterEmail.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.LblRegisterEmail.Name = "LblRegisterEmail";
-            this.LblRegisterEmail.Size = new System.Drawing.Size(125, 19);
+            this.LblRegisterEmail.Size = new System.Drawing.Size(131, 20);
             this.LblRegisterEmail.TabIndex = 2;
             this.LblRegisterEmail.Text = "Correo Institucional:";
             // 
@@ -104,10 +106,10 @@
             // 
             // 
             this.TxtRegisterEmail.CustomButton.Image = null;
-            this.TxtRegisterEmail.CustomButton.Location = new System.Drawing.Point(351, 2);
+            this.TxtRegisterEmail.CustomButton.Location = new System.Drawing.Point(234, 1);
             this.TxtRegisterEmail.CustomButton.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.TxtRegisterEmail.CustomButton.Name = "";
-            this.TxtRegisterEmail.CustomButton.Size = new System.Drawing.Size(50, 51);
+            this.TxtRegisterEmail.CustomButton.Size = new System.Drawing.Size(33, 33);
             this.TxtRegisterEmail.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
             this.TxtRegisterEmail.CustomButton.TabIndex = 1;
             this.TxtRegisterEmail.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
@@ -136,7 +138,7 @@
             this.LblRegisterCif.Location = new System.Drawing.Point(219, 466);
             this.LblRegisterCif.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.LblRegisterCif.Name = "LblRegisterCif";
-            this.LblRegisterCif.Size = new System.Drawing.Size(29, 19);
+            this.LblRegisterCif.Size = new System.Drawing.Size(29, 20);
             this.LblRegisterCif.TabIndex = 4;
             this.LblRegisterCif.Text = "Cif:";
             // 
@@ -146,10 +148,10 @@
             // 
             // 
             this.TxtRegisterCif.CustomButton.Image = null;
-            this.TxtRegisterCif.CustomButton.Location = new System.Drawing.Point(351, 2);
+            this.TxtRegisterCif.CustomButton.Location = new System.Drawing.Point(234, 1);
             this.TxtRegisterCif.CustomButton.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.TxtRegisterCif.CustomButton.Name = "";
-            this.TxtRegisterCif.CustomButton.Size = new System.Drawing.Size(50, 51);
+            this.TxtRegisterCif.CustomButton.Size = new System.Drawing.Size(33, 33);
             this.TxtRegisterCif.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
             this.TxtRegisterCif.CustomButton.TabIndex = 1;
             this.TxtRegisterCif.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
@@ -179,7 +181,7 @@
             this.LblRegisterPassword.Location = new System.Drawing.Point(169, 528);
             this.LblRegisterPassword.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.LblRegisterPassword.Name = "LblRegisterPassword";
-            this.LblRegisterPassword.Size = new System.Drawing.Size(78, 19);
+            this.LblRegisterPassword.Size = new System.Drawing.Size(82, 20);
             this.LblRegisterPassword.TabIndex = 6;
             this.LblRegisterPassword.Text = "Contraseña:";
             // 
@@ -189,10 +191,10 @@
             // 
             // 
             this.TxtRegisterPassword.CustomButton.Image = null;
-            this.TxtRegisterPassword.CustomButton.Location = new System.Drawing.Point(351, 2);
+            this.TxtRegisterPassword.CustomButton.Location = new System.Drawing.Point(234, 1);
             this.TxtRegisterPassword.CustomButton.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.TxtRegisterPassword.CustomButton.Name = "";
-            this.TxtRegisterPassword.CustomButton.Size = new System.Drawing.Size(50, 51);
+            this.TxtRegisterPassword.CustomButton.Size = new System.Drawing.Size(33, 33);
             this.TxtRegisterPassword.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
             this.TxtRegisterPassword.CustomButton.TabIndex = 1;
             this.TxtRegisterPassword.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
@@ -221,21 +223,21 @@
             this.LblRegisterRol.Location = new System.Drawing.Point(216, 649);
             this.LblRegisterRol.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.LblRegisterRol.Name = "LblRegisterRol";
-            this.LblRegisterRol.Size = new System.Drawing.Size(31, 19);
+            this.LblRegisterRol.Size = new System.Drawing.Size(31, 20);
             this.LblRegisterRol.TabIndex = 8;
             this.LblRegisterRol.Text = "Rol:";
             // 
             // CmbRegisterRol
             // 
             this.CmbRegisterRol.FormattingEnabled = true;
-            this.CmbRegisterRol.ItemHeight = 23;
+            this.CmbRegisterRol.ItemHeight = 24;
             this.CmbRegisterRol.Items.AddRange(new object[] {
             "Comprador",
             "Administrador"});
             this.CmbRegisterRol.Location = new System.Drawing.Point(272, 649);
             this.CmbRegisterRol.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.CmbRegisterRol.Name = "CmbRegisterRol";
-            this.CmbRegisterRol.Size = new System.Drawing.Size(266, 29);
+            this.CmbRegisterRol.Size = new System.Drawing.Size(266, 30);
             this.CmbRegisterRol.TabIndex = 9;
             this.CmbRegisterRol.UseSelectable = true;
             // 
@@ -255,7 +257,7 @@
             this.LblRegisterVPassword.Location = new System.Drawing.Point(105, 584);
             this.LblRegisterVPassword.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.LblRegisterVPassword.Name = "LblRegisterVPassword";
-            this.LblRegisterVPassword.Size = new System.Drawing.Size(142, 19);
+            this.LblRegisterVPassword.Size = new System.Drawing.Size(147, 20);
             this.LblRegisterVPassword.TabIndex = 11;
             this.LblRegisterVPassword.Text = "Confirmar Contraseña:";
             // 
@@ -296,7 +298,7 @@
             this.CbxSeePw.AutoSize = true;
             this.CbxSeePw.Location = new System.Drawing.Point(547, 532);
             this.CbxSeePw.Name = "CbxSeePw";
-            this.CbxSeePw.Size = new System.Drawing.Size(39, 15);
+            this.CbxSeePw.Size = new System.Drawing.Size(43, 17);
             this.CbxSeePw.TabIndex = 13;
             this.CbxSeePw.Text = "Ver";
             this.CbxSeePw.UseSelectable = true;
@@ -307,17 +309,28 @@
             this.CbxSeeVPw.AutoSize = true;
             this.CbxSeeVPw.Location = new System.Drawing.Point(547, 588);
             this.CbxSeeVPw.Name = "CbxSeeVPw";
-            this.CbxSeeVPw.Size = new System.Drawing.Size(39, 15);
+            this.CbxSeeVPw.Size = new System.Drawing.Size(43, 17);
             this.CbxSeeVPw.TabIndex = 14;
             this.CbxSeeVPw.Text = "Ver";
             this.CbxSeeVPw.UseSelectable = true;
             this.CbxSeeVPw.CheckedChanged += new System.EventHandler(this.CbxSeeVPw_CheckedChanged);
             // 
+            // PbxRegisterLogo
+            // 
+            this.PbxRegisterLogo.Image = global::JaguarShop.Properties.Resources.LogoJaguarShopBlack;
+            this.PbxRegisterLogo.Location = new System.Drawing.Point(192, 58);
+            this.PbxRegisterLogo.Name = "PbxRegisterLogo";
+            this.PbxRegisterLogo.Size = new System.Drawing.Size(283, 243);
+            this.PbxRegisterLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.PbxRegisterLogo.TabIndex = 15;
+            this.PbxRegisterLogo.TabStop = false;
+            // 
             // Register
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(645, 789);
+            this.Controls.Add(this.PbxRegisterLogo);
             this.Controls.Add(this.CbxSeeVPw);
             this.Controls.Add(this.CbxSeePw);
             this.Controls.Add(this.TxtRegisterVPassword);
@@ -340,6 +353,7 @@
             this.Resizable = false;
             this.Text = "Registrar Usuario";
             this.TextAlign = MetroFramework.Forms.MetroFormTextAlign.Center;
+            ((System.ComponentModel.ISupportInitialize)(this.PbxRegisterLogo)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -362,5 +376,6 @@
         private MetroFramework.Controls.MetroTextBox TxtRegisterVPassword;
         private MetroFramework.Controls.MetroCheckBox CbxSeePw;
         private MetroFramework.Controls.MetroCheckBox CbxSeeVPw;
+        private System.Windows.Forms.PictureBox PbxRegisterLogo;
     }
 }

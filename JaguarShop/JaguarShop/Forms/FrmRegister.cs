@@ -7,14 +7,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using JaguarShop.Services;
 
 namespace JaguarShop.Forms
 {
-    public partial class Register : MetroFramework.Forms.MetroForm
+    public partial class FrmRegister : MetroFramework.Forms.MetroForm
     {
-        public Register()
+        private readonly RegisterFiles _registerFiles;
+        public FrmRegister()
         {
             InitializeComponent();
+            _registerFiles = new RegisterFiles("users_JaguarShop.txt");
         }
 
         private void BtnRegister_Click(object sender, EventArgs e)
@@ -83,8 +86,16 @@ namespace JaguarShop.Forms
                 return;
             }
 
-            // Hacer que cuando este todo completo se muestre un mensaje de exito
-            MetroFramework.MetroMessageBox.Show(this, "Registro exitoso", "Exito", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            // Guardar datos usando UserRegisterFile
+            try
+            {
+                _registerFiles.RegisterUser(TxtRegisterFullName.Text, TxtRegisterEmail.Text, TxtRegisterCif.Text, TxtRegisterPassword.Text);
+                MetroFramework.MetroMessageBox.Show(this, "Usuario registrado con éxito.", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            catch (Exception ex)
+            {
+                MetroFramework.MetroMessageBox.Show(this, $"Error al guardar los datos: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
 
             // Limpiar los campos
             TxtRegisterFullName.Clear();
@@ -93,10 +104,10 @@ namespace JaguarShop.Forms
             TxtRegisterPassword.Clear();
             CmbRegisterRol.SelectedIndex = -1;
 
-            // Volver al login cuando le den ok al mensaje
-            Login login = new Login();
+            // Volver al login cuando le den ok al mensaje del register
+            FrmLogin login = new FrmLogin();
             login.Show();
-            this.Close();
+            this.Hide();
         }
 
         // Hacer que en el nombre no se puedan ingresar numeros y que salte una alerta

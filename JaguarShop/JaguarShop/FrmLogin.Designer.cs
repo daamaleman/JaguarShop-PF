@@ -1,6 +1,6 @@
 ﻿namespace JaguarShop
 {
-    partial class Login
+    partial class FrmLogin
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -36,6 +36,8 @@
             this.LnRegister = new MetroFramework.Controls.MetroLink();
             this.LlbRegister = new MetroFramework.Controls.MetroLabel();
             this.CbxSeePw = new MetroFramework.Controls.MetroCheckBox();
+            this.PbxLoginLogo = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.PbxLoginLogo)).BeginInit();
             this.SuspendLayout();
             // 
             // LblCif
@@ -54,9 +56,9 @@
             // 
             // 
             this.TxtCif.CustomButton.Image = null;
-            this.TxtCif.CustomButton.Location = new System.Drawing.Point(124, 1);
+            this.TxtCif.CustomButton.Location = new System.Drawing.Point(185, 1);
             this.TxtCif.CustomButton.Name = "";
-            this.TxtCif.CustomButton.Size = new System.Drawing.Size(21, 21);
+            this.TxtCif.CustomButton.Size = new System.Drawing.Size(33, 33);
             this.TxtCif.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
             this.TxtCif.CustomButton.TabIndex = 1;
             this.TxtCif.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
@@ -95,9 +97,9 @@
             // 
             // 
             this.TxtPassword.CustomButton.Image = null;
-            this.TxtPassword.CustomButton.Location = new System.Drawing.Point(124, 1);
+            this.TxtPassword.CustomButton.Location = new System.Drawing.Point(185, 1);
             this.TxtPassword.CustomButton.Name = "";
-            this.TxtPassword.CustomButton.Size = new System.Drawing.Size(21, 21);
+            this.TxtPassword.CustomButton.Size = new System.Drawing.Size(33, 33);
             this.TxtPassword.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
             this.TxtPassword.CustomButton.TabIndex = 1;
             this.TxtPassword.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
@@ -164,11 +166,22 @@
             this.CbxSeePw.UseSelectable = true;
             this.CbxSeePw.CheckedChanged += new System.EventHandler(this.CbxSeePw_CheckedChanged);
             // 
-            // Login
+            // PbxLoginLogo
+            // 
+            this.PbxLoginLogo.Image = global::JaguarShop.Properties.Resources.LogoJaguarShopBlack;
+            this.PbxLoginLogo.Location = new System.Drawing.Point(117, 62);
+            this.PbxLoginLogo.Name = "PbxLoginLogo";
+            this.PbxLoginLogo.Size = new System.Drawing.Size(283, 243);
+            this.PbxLoginLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.PbxLoginLogo.TabIndex = 16;
+            this.PbxLoginLogo.TabStop = false;
+            // 
+            // FrmLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(532, 692);
+            this.ClientSize = new System.Drawing.Size(535, 692);
+            this.Controls.Add(this.PbxLoginLogo);
             this.Controls.Add(this.CbxSeePw);
             this.Controls.Add(this.LlbRegister);
             this.Controls.Add(this.LnRegister);
@@ -179,11 +192,12 @@
             this.Controls.Add(this.LblCif);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.Name = "Login";
+            this.Name = "FrmLogin";
             this.Padding = new System.Windows.Forms.Padding(30, 92, 30, 31);
             this.Resizable = false;
-            this.Text = "Iniciar Sesión";
+            this.Text = "Iniciar Sesion";
             this.TextAlign = MetroFramework.Forms.MetroFormTextAlign.Center;
+            ((System.ComponentModel.ISupportInitialize)(this.PbxLoginLogo)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -199,6 +213,7 @@
         private MetroFramework.Controls.MetroLink LnRegister;
         private MetroFramework.Controls.MetroLabel LlbRegister;
         private MetroFramework.Controls.MetroCheckBox CbxSeePw;
+        private System.Windows.Forms.PictureBox PbxLoginLogo;
     }
 }
 

@@ -5,11 +5,12 @@ C:\Users\diede\Desktop\Programming Lenguages\PROYECTOS\JaguarShop\JaguarShop-Cod
 C:\Users\diede\Desktop\Programming Lenguages\PROYECTOS\JaguarShop\JaguarShop-Code\JaguarShop\JaguarShop\bin\Debug\MetroFramework.dll
 C:\Users\diede\Desktop\Programming Lenguages\PROYECTOS\JaguarShop\JaguarShop-Code\JaguarShop\JaguarShop\bin\Debug\MetroFramework.Fonts.dll
 C:\Users\diede\Desktop\Programming Lenguages\PROYECTOS\JaguarShop\JaguarShop-Code\JaguarShop\JaguarShop\obj\Debug\JaguarShop.csproj.AssemblyReference.cache
-C:\Users\diede\Desktop\Programming Lenguages\PROYECTOS\JaguarShop\JaguarShop-Code\JaguarShop\JaguarShop\obj\Debug\JaguarShop.Login.resources
+C:\Users\diede\Desktop\Programming Lenguages\PROYECTOS\JaguarShop\JaguarShop-Code\JaguarShop\JaguarShop\obj\Debug\JaguarShop.Forms.FrmMainPage.resources
+C:\Users\diede\Desktop\Programming Lenguages\PROYECTOS\JaguarShop\JaguarShop-Code\JaguarShop\JaguarShop\obj\Debug\JaguarShop.Forms.FrmRegister.resources
+C:\Users\diede\Desktop\Programming Lenguages\PROYECTOS\JaguarShop\JaguarShop-Code\JaguarShop\JaguarShop\obj\Debug\JaguarShop.FrmLogin.resources
 C:\Users\diede\Desktop\Programming Lenguages\PROYECTOS\JaguarShop\JaguarShop-Code\JaguarShop\JaguarShop\obj\Debug\JaguarShop.Properties.Resources.resources
 C:\Users\diede\Desktop\Programming Lenguages\PROYECTOS\JaguarShop\JaguarShop-Code\JaguarShop\JaguarShop\obj\Debug\JaguarShop.csproj.GenerateResource.cache
 C:\Users\diede\Desktop\Programming Lenguages\PROYECTOS\JaguarShop\JaguarShop-Code\JaguarShop\JaguarShop\obj\Debug\JaguarShop.csproj.CoreCompileInputs.cache
 C:\Users\diede\Desktop\Programming Lenguages\PROYECTOS\JaguarShop\JaguarShop-Code\JaguarShop\JaguarShop\obj\Debug\JaguarShop.csproj.Up2Date
 C:\Users\diede\Desktop\Programming Lenguages\PROYECTOS\JaguarShop\JaguarShop-Code\JaguarShop\JaguarShop\obj\Debug\JaguarShop.exe
 C:\Users\diede\Desktop\Programming Lenguages\PROYECTOS\JaguarShop\JaguarShop-Code\JaguarShop\JaguarShop\obj\Debug\JaguarShop.pdb
-C:\Users\diede\Desktop\Programming Lenguages\PROYECTOS\JaguarShop\JaguarShop-Code\JaguarShop\JaguarShop\obj\Debug\JaguarShop.Forms.Register.resources
