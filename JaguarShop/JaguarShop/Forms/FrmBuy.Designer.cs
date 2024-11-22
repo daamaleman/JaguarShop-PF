@@ -1,6 +1,6 @@
 ﻿namespace JaguarShop.Forms
 {
-    partial class FrmMainPage
+    partial class FrmBuy
     {
         /// <summary>
         /// Required designer variable.
@@ -30,18 +30,15 @@
         {
             this.SuspendLayout();
             // 
-            // FrmMainPage
+            // FrmBuy
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(904, 571);
-            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.Name = "FrmMainPage";
-            this.Padding = new System.Windows.Forms.Padding(30, 94, 30, 31);
-            this.Resizable = false;
-            this.Text = "MainPage";
+            this.ClientSize = new System.Drawing.Size(620, 450);
+            this.Name = "FrmBuy";
+            this.Text = "Compra";
             this.TextAlign = MetroFramework.Forms.MetroFormTextAlign.Center;
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FrmBuy_FormClosing);
             this.ResumeLayout(false);
 
         }

@@ -63,6 +63,26 @@ namespace JaguarShop.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Camisa_UAM {
+            get {
+                object obj = ResourceManager.GetObject("Camisa_UAM", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Gorra_UAM {
+            get {
+                object obj = ResourceManager.GetObject("Gorra_UAM", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap LogoJaguarShopBlack {
             get {
                 object obj = ResourceManager.GetObject("LogoJaguarShopBlack", resourceCulture);

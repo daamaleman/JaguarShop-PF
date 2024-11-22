@@ -21,6 +21,7 @@ namespace JaguarShop
             InitializeComponent();
         }
 
+
         private void BtnLogin_Click(object sender, EventArgs e)
         {
             // Validaciones
@@ -110,7 +111,7 @@ namespace JaguarShop
                 MetroFramework.MetroMessageBox.Show(this, "Bienvenido", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
                 // Abre el formulario principal y cierra el formulario de login.
-                new FrmMainPage().Show();
+                new FrmCatalog().Show();
                 this.Hide();
             }
             else
