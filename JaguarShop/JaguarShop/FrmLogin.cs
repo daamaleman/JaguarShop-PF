@@ -24,6 +24,8 @@ namespace JaguarShop
 
         private void BtnLogin_Click(object sender, EventArgs e)
         {
+            // Hacer que en el boton se 
+
             // Validaciones
             // 1.Ninguno de los Textbox deben estar vacios 
             if(string.IsNullOrWhiteSpace(TxtCif.Text) || string.IsNullOrWhiteSpace(TxtPassword.Text))
@@ -60,7 +62,6 @@ namespace JaguarShop
                 return;
             }
 
-            // Verificar si la contrasena es igual a la que esta en el archivo RegisterFiles de la carpeta Services
 
             // Codifica la contraseña ingresada para compararla con la almacenada.
             string encodedPassword = Convert.ToBase64String(Encoding.UTF8.GetBytes(TxtPassword.Text));

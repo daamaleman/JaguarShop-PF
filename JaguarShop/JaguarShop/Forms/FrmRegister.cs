@@ -14,10 +14,12 @@ namespace JaguarShop.Forms
     public partial class FrmRegister : MetroFramework.Forms.MetroForm
     {
         private readonly RegisterFiles _registerFiles;
+        private readonly AdminFiles _adminFiles;
         public FrmRegister()
         {
             InitializeComponent();
             _registerFiles = new RegisterFiles("users_JaguarShop.txt");
+            _adminFiles = new AdminFiles("admin_JaguarShop.txt");
         }
 
         private void BtnRegister_Click(object sender, EventArgs e)
@@ -86,15 +88,47 @@ namespace JaguarShop.Forms
                 return;
             }
 
-            // Guardar datos usando UserRegisterFile
-            try
+            // 10. Verificar si el combobox es diferente de Comprador o Administrador
+            if (CmbRegisterRol.SelectedItem.ToString() != "Comprador" && CmbRegisterRol.SelectedItem.ToString() != "Administrador")
             {
-                _registerFiles.RegisterUser(TxtRegisterFullName.Text, TxtRegisterEmail.Text, TxtRegisterCif.Text, TxtRegisterPassword.Text);
-                MetroFramework.MetroMessageBox.Show(this, "Usuario registrado con éxito.", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MetroFramework.MetroMessageBox.Show(this, "Por favor, seleccione un tipo de usuario valido", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
             }
-            catch (Exception ex)
+
+            // 11. Verificar si se selecciono una opcion en el combobox
+            if (CmbRegisterRol.SelectedIndex == -1)
             {
-                MetroFramework.MetroMessageBox.Show(this, $"Error al guardar los datos: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MetroFramework.MetroMessageBox.Show(this, "Por favor, seleccione un tipo de usuario", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+
+            // Guardar datos usando UserRegisterFile
+            if (CmbRegisterRol.SelectedItem.ToString() == "Comprador")
+            {
+                try
+                {
+                    _registerFiles.RegisterUser(TxtRegisterFullName.Text, TxtRegisterEmail.Text, TxtRegisterCif.Text, TxtRegisterPassword.Text);
+                    MetroFramework.MetroMessageBox.Show(this, "Usuario registrado con éxito.", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+                catch (Exception ex)
+                {
+                    MetroFramework.MetroMessageBox.Show(this, $"Error al guardar los datos: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+
+            // Hacer que si el usuario selecciono la opcion de Administrador en el combobox, se guarde en el archivo de admin
+            if (CmbRegisterRol.SelectedItem.ToString() == "Administrador")
+            {
+                try
+                {
+                    _adminFiles.RegisterAdmin(TxtRegisterFullName.Text, TxtRegisterEmail.Text, TxtRegisterCif.Text, TxtRegisterPassword.Text);
+                    MetroFramework.MetroMessageBox.Show(this, "Administrador registrado con éxito.", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+                catch (Exception ex)
+                {
+                    MetroFramework.MetroMessageBox.Show(this, $"Error al guardar los datos: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+                return;
             }
 
             // Limpiar los campos
