@@ -40,6 +40,7 @@
             this.LblProductName2 = new MetroFramework.Controls.MetroLabel();
             this.PbUAMTshirt = new System.Windows.Forms.PictureBox();
             this.PbMainPage = new System.Windows.Forms.PictureBox();
+            this.BtnAdmin = new MetroFramework.Controls.MetroButton();
             this.PnCatalog.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PbUAMHat)).BeginInit();
             this.metroPanel1.SuspendLayout();
@@ -178,11 +179,22 @@
             this.PbMainPage.TabIndex = 2;
             this.PbMainPage.TabStop = false;
             // 
+            // BtnAdmin
+            // 
+            this.BtnAdmin.Location = new System.Drawing.Point(748, 482);
+            this.BtnAdmin.Name = "BtnAdmin";
+            this.BtnAdmin.Size = new System.Drawing.Size(118, 55);
+            this.BtnAdmin.TabIndex = 5;
+            this.BtnAdmin.Text = "Administrador";
+            this.BtnAdmin.UseSelectable = true;
+            this.BtnAdmin.Click += new System.EventHandler(this.BtnAdmin_Click);
+            // 
             // FrmCatalog
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(899, 571);
+            this.Controls.Add(this.BtnAdmin);
             this.Controls.Add(this.metroPanel1);
             this.Controls.Add(this.PnCatalog);
             this.Controls.Add(this.PbMainPage);
@@ -218,5 +230,6 @@
         private System.Windows.Forms.PictureBox PbUAMTshirt;
         private MetroFramework.Controls.MetroButton BtnBuyProduct;
         private MetroFramework.Controls.MetroButton BtnBuyProduct2;
+        private MetroFramework.Controls.MetroButton BtnAdmin;
     }
 }

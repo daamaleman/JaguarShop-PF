@@ -48,5 +48,14 @@ namespace JaguarShop.Forms
             this.Close();
         }
 
+        private void BtnAdmin_Click(object sender, EventArgs e)
+        {
+            // Create a new instance of the FrmAdmin form
+            FrmAdmin frmAdmin = new FrmAdmin();
+            // Show the FrmAdmin form
+            frmAdmin.Show();
+            // Cerar el formulario actual
+            this.Close();
+        }
     }
 }
