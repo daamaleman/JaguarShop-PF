@@ -30,19 +30,19 @@
         {
             this.LblProductName = new MetroFramework.Controls.MetroLabel();
             this.TxtProductName = new MetroFramework.Controls.MetroTextBox();
-            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.RtbProductDescrip = new System.Windows.Forms.RichTextBox();
             this.LblProductDescription = new MetroFramework.Controls.MetroLabel();
             this.LblProductPrice = new MetroFramework.Controls.MetroLabel();
-            this.NudPrice = new System.Windows.Forms.NumericUpDown();
+            this.NudProductPrice = new System.Windows.Forms.NumericUpDown();
             this.LblProductColors = new MetroFramework.Controls.MetroLabel();
-            this.CbxBlack = new MetroFramework.Controls.MetroCheckBox();
-            this.CbxWhite = new MetroFramework.Controls.MetroCheckBox();
-            this.CbxOtherColor = new MetroFramework.Controls.MetroCheckBox();
+            this.CbxProductCBlack = new MetroFramework.Controls.MetroCheckBox();
+            this.CbxProductCWhite = new MetroFramework.Controls.MetroCheckBox();
+            this.CbxProductOtherColor = new MetroFramework.Controls.MetroCheckBox();
             this.LblStock = new MetroFramework.Controls.MetroLabel();
-            this.NudStock = new System.Windows.Forms.NumericUpDown();
+            this.NudProductStock = new System.Windows.Forms.NumericUpDown();
             this.BtnSaveProduct = new MetroFramework.Controls.MetroButton();
-            ((System.ComponentModel.ISupportInitialize)(this.NudPrice)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.NudStock)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.NudProductPrice)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.NudProductStock)).BeginInit();
             this.SuspendLayout();
             // 
             // LblProductName
@@ -84,13 +84,13 @@
             this.TxtProductName.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
             this.TxtProductName.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
             // 
-            // richTextBox1
+            // RtbProductDescrip
             // 
-            this.richTextBox1.Location = new System.Drawing.Point(197, 166);
-            this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(187, 64);
-            this.richTextBox1.TabIndex = 2;
-            this.richTextBox1.Text = "";
+            this.RtbProductDescrip.Location = new System.Drawing.Point(197, 166);
+            this.RtbProductDescrip.Name = "RtbProductDescrip";
+            this.RtbProductDescrip.Size = new System.Drawing.Size(187, 64);
+            this.RtbProductDescrip.TabIndex = 2;
+            this.RtbProductDescrip.Text = "";
             // 
             // LblProductDescription
             // 
@@ -110,20 +110,20 @@
             this.LblProductPrice.TabIndex = 4;
             this.LblProductPrice.Text = "Precio:";
             // 
-            // NudPrice
+            // NudProductPrice
             // 
-            this.NudPrice.Increment = new decimal(new int[] {
+            this.NudProductPrice.Increment = new decimal(new int[] {
             20,
             0,
             0,
             0});
-            this.NudPrice.Location = new System.Drawing.Point(197, 256);
-            this.NudPrice.Name = "NudPrice";
-            this.NudPrice.Size = new System.Drawing.Size(120, 20);
-            this.NudPrice.TabIndex = 5;
-            this.NudPrice.Tag = "";
-            this.NudPrice.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            this.NudPrice.ThousandsSeparator = true;
+            this.NudProductPrice.Location = new System.Drawing.Point(197, 256);
+            this.NudProductPrice.Name = "NudProductPrice";
+            this.NudProductPrice.Size = new System.Drawing.Size(120, 20);
+            this.NudProductPrice.TabIndex = 5;
+            this.NudProductPrice.Tag = "";
+            this.NudProductPrice.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.NudProductPrice.ThousandsSeparator = true;
             // 
             // LblProductColors
             // 
@@ -134,35 +134,35 @@
             this.LblProductColors.TabIndex = 6;
             this.LblProductColors.Text = "Colores Disponibles:";
             // 
-            // CbxBlack
+            // CbxProductCBlack
             // 
-            this.CbxBlack.AutoSize = true;
-            this.CbxBlack.Location = new System.Drawing.Point(197, 310);
-            this.CbxBlack.Name = "CbxBlack";
-            this.CbxBlack.Size = new System.Drawing.Size(56, 15);
-            this.CbxBlack.TabIndex = 7;
-            this.CbxBlack.Text = "Negro";
-            this.CbxBlack.UseSelectable = true;
+            this.CbxProductCBlack.AutoSize = true;
+            this.CbxProductCBlack.Location = new System.Drawing.Point(197, 310);
+            this.CbxProductCBlack.Name = "CbxProductCBlack";
+            this.CbxProductCBlack.Size = new System.Drawing.Size(56, 15);
+            this.CbxProductCBlack.TabIndex = 7;
+            this.CbxProductCBlack.Text = "Negro";
+            this.CbxProductCBlack.UseSelectable = true;
             // 
-            // CbxWhite
+            // CbxProductCWhite
             // 
-            this.CbxWhite.AutoSize = true;
-            this.CbxWhite.Location = new System.Drawing.Point(259, 310);
-            this.CbxWhite.Name = "CbxWhite";
-            this.CbxWhite.Size = new System.Drawing.Size(59, 15);
-            this.CbxWhite.TabIndex = 8;
-            this.CbxWhite.Text = "Blanco";
-            this.CbxWhite.UseSelectable = true;
+            this.CbxProductCWhite.AutoSize = true;
+            this.CbxProductCWhite.Location = new System.Drawing.Point(259, 310);
+            this.CbxProductCWhite.Name = "CbxProductCWhite";
+            this.CbxProductCWhite.Size = new System.Drawing.Size(59, 15);
+            this.CbxProductCWhite.TabIndex = 8;
+            this.CbxProductCWhite.Text = "Blanco";
+            this.CbxProductCWhite.UseSelectable = true;
             // 
-            // CbxOtherColor
+            // CbxProductOtherColor
             // 
-            this.CbxOtherColor.AutoSize = true;
-            this.CbxOtherColor.Location = new System.Drawing.Point(324, 310);
-            this.CbxOtherColor.Name = "CbxOtherColor";
-            this.CbxOtherColor.Size = new System.Drawing.Size(47, 15);
-            this.CbxOtherColor.TabIndex = 9;
-            this.CbxOtherColor.Text = "Otro";
-            this.CbxOtherColor.UseSelectable = true;
+            this.CbxProductOtherColor.AutoSize = true;
+            this.CbxProductOtherColor.Location = new System.Drawing.Point(324, 310);
+            this.CbxProductOtherColor.Name = "CbxProductOtherColor";
+            this.CbxProductOtherColor.Size = new System.Drawing.Size(47, 15);
+            this.CbxProductOtherColor.TabIndex = 9;
+            this.CbxProductOtherColor.Text = "Otro";
+            this.CbxProductOtherColor.UseSelectable = true;
             // 
             // LblStock
             // 
@@ -173,15 +173,15 @@
             this.LblStock.TabIndex = 10;
             this.LblStock.Text = "Disponibles:";
             // 
-            // NudStock
+            // NudProductStock
             // 
-            this.NudStock.Location = new System.Drawing.Point(197, 355);
-            this.NudStock.Name = "NudStock";
-            this.NudStock.Size = new System.Drawing.Size(120, 20);
-            this.NudStock.TabIndex = 11;
-            this.NudStock.Tag = "";
-            this.NudStock.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            this.NudStock.ThousandsSeparator = true;
+            this.NudProductStock.Location = new System.Drawing.Point(197, 355);
+            this.NudProductStock.Name = "NudProductStock";
+            this.NudProductStock.Size = new System.Drawing.Size(120, 20);
+            this.NudProductStock.TabIndex = 11;
+            this.NudProductStock.Tag = "";
+            this.NudProductStock.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.NudProductStock.ThousandsSeparator = true;
             // 
             // BtnSaveProduct
             // 
@@ -199,23 +199,23 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(533, 547);
             this.Controls.Add(this.BtnSaveProduct);
-            this.Controls.Add(this.NudStock);
+            this.Controls.Add(this.NudProductStock);
             this.Controls.Add(this.LblStock);
-            this.Controls.Add(this.CbxOtherColor);
-            this.Controls.Add(this.CbxWhite);
-            this.Controls.Add(this.CbxBlack);
+            this.Controls.Add(this.CbxProductOtherColor);
+            this.Controls.Add(this.CbxProductCWhite);
+            this.Controls.Add(this.CbxProductCBlack);
             this.Controls.Add(this.LblProductColors);
-            this.Controls.Add(this.NudPrice);
+            this.Controls.Add(this.NudProductPrice);
             this.Controls.Add(this.LblProductPrice);
             this.Controls.Add(this.LblProductDescription);
-            this.Controls.Add(this.richTextBox1);
+            this.Controls.Add(this.RtbProductDescrip);
             this.Controls.Add(this.TxtProductName);
             this.Controls.Add(this.LblProductName);
             this.Name = "FrmAdmin";
             this.Text = "Agregar Producto";
             this.TextAlign = MetroFramework.Forms.MetroFormTextAlign.Center;
-            ((System.ComponentModel.ISupportInitialize)(this.NudPrice)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.NudStock)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.NudProductPrice)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.NudProductStock)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -225,16 +225,16 @@
 
         private MetroFramework.Controls.MetroLabel LblProductName;
         private MetroFramework.Controls.MetroTextBox TxtProductName;
-        private System.Windows.Forms.RichTextBox richTextBox1;
+        private System.Windows.Forms.RichTextBox RtbProductDescrip;
         private MetroFramework.Controls.MetroLabel LblProductDescription;
         private MetroFramework.Controls.MetroLabel LblProductPrice;
-        private System.Windows.Forms.NumericUpDown NudPrice;
+        private System.Windows.Forms.NumericUpDown NudProductPrice;
         private MetroFramework.Controls.MetroLabel LblProductColors;
-        private MetroFramework.Controls.MetroCheckBox CbxBlack;
-        private MetroFramework.Controls.MetroCheckBox CbxWhite;
-        private MetroFramework.Controls.MetroCheckBox CbxOtherColor;
+        private MetroFramework.Controls.MetroCheckBox CbxProductCBlack;
+        private MetroFramework.Controls.MetroCheckBox CbxProductCWhite;
+        private MetroFramework.Controls.MetroCheckBox CbxProductOtherColor;
         private MetroFramework.Controls.MetroLabel LblStock;
-        private System.Windows.Forms.NumericUpDown NudStock;
+        private System.Windows.Forms.NumericUpDown NudProductStock;
         private MetroFramework.Controls.MetroButton BtnSaveProduct;
     }
 }

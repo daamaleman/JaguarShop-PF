@@ -1,0 +1,8 @@
+-------------------------------
+ID del Producto: 522
+Nombre del Producto: Hola
+Descripción: Hola buenas tardes
+Precio: 100
+Colores: Negro
+Stock: 100
+-------------------------------

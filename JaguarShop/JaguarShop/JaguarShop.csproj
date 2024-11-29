@@ -55,6 +55,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Dao\ProductDao.cs" />
+    <Compile Include="Dao\UserDao.cs" />
     <Compile Include="Forms\FrmAboutUs.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -95,6 +97,8 @@
     <Compile Include="Models\User.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\ProductFile.cs" />
+    <Compile Include="Services\ProductServices.cs" />
     <Compile Include="Services\ProductInvoice.cs" />
     <Compile Include="Services\RegisterFiles.cs" />
     <EmbeddedResource Include="Forms\FrmAboutUs.resx">
