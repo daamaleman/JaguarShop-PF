@@ -27,20 +27,6 @@ namespace JaguarShop.Dao
             products.Add(product);
         }
 
-        public Product FindProductById(int id) 
-        {
-            return products.Find(product => product.Id == id);
-        }
-
-        public void DeleteProductById(int id)
-        {
-            var product = FindProductById(id);
-            if (product != null)
-            {
-                products.Remove(product);
-            }
-        }
-
         public void UpdateProduct(int id, Product updateProject)
         {
             int index = products.FindIndex(product => product.Id == id);
