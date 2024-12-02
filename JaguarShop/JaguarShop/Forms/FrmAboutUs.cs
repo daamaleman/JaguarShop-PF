@@ -25,6 +25,5 @@ namespace JaguarShop.Forms
             // Show the FrmCatalog form
             frmCatalog.Show();
         }
-
     }
 }

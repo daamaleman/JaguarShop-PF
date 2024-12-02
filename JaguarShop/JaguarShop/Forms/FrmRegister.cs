@@ -100,6 +100,16 @@ namespace JaguarShop.Forms
                 return;
             }
 
+            // Verificar si el email ya está registrado
+            if (_registerFiles.IsEmailRegistered(TxtRegisterEmail.Text))
+            {
+                MetroFramework.MetroMessageBox.Show(this, "El email ya está registrado", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+
+            // Registrar el usuario
+            _registerFiles.RegisterUser(TxtRegisterFullName.Text, TxtRegisterEmail.Text, TxtRegisterCif.Text, TxtRegisterPassword.Text);
+
             // Limpiar los campos
             TxtRegisterFullName.Clear();
             TxtRegisterEmail.Clear();
@@ -108,6 +118,7 @@ namespace JaguarShop.Forms
             CmbRegisterRol.SelectedIndex = -1;
 
             // Volver al login cuando le den ok al mensaje del register
+            MetroFramework.MetroMessageBox.Show(this, "Registro exitoso", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
             FrmLogin login = new FrmLogin();
             login.Show();
             this.Hide();

@@ -1,7 +1,6 @@
-
 -------------------------------
-ID: USR88516
-Nombre Completo: Diedereich Aleman
+ID: USR47134
+Nombre Completo: Diedereich
 Correo: diedereicha@uamv.edu.ni
 Cif: 24010195
 Contraseña: MTIzNDU2Nzg=

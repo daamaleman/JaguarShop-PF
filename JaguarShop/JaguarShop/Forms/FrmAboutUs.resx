@@ -117,4 +117,9 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="richTextBox1.Text" xml:space="preserve">
+    <value>En JaguarShop, transformamos la experiencia de compra en la Universidad Americana (UAM). Nuestra plataforma digital permite a la comunidad universitaria adquirir productos oficiales, como ropa y accesorios, de manera rápida y eficiente. Diseñada para estudiantes, docentes y personal, ofrece una interfaz intuitiva y un catálogo actualizado.
+
+Nuestra misión es modernizar la tienda oficial de la UAM, facilitando tanto las compras como la gestión de inventarios. Con tecnología innovadora, simplificamos procesos y mejoramos la experiencia del usuario, reflejando los valores de excelencia de la universidad. ¡Con JaguarShop, comprar es fácil y práctico!</value>
+  </data>
 </root>
