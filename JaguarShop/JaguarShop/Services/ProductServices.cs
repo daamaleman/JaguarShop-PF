@@ -35,7 +35,7 @@ namespace JaguarShop.Services
             return new Product
             {
                 Id = new Random().Next(1, 1000),
-                Name = name,
+                ProductName = name,
                 Description = description,
                 Price = price,
                 Colors = colors,

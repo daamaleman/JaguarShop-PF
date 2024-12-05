@@ -38,6 +38,8 @@ namespace JaguarShop.Forms
             var (fullName, email) = GetNameAndEmail();
             LblInvoiceName.Text = fullName;
             LblInvoiceEmail.Text = email;
+
+            ReadConfig();
         }
 
         private (string, string) GetNameAndEmail()
@@ -57,6 +59,13 @@ namespace JaguarShop.Forms
                 }
             }
             return (fullName, email);
+        }
+
+        private void ReadConfig()
+        {
+            AppConfigFile appConfigFile = new AppConfigFile();
+            appConfigFile.LoadAppConfig();
+            this.Theme = appConfigFile.Theme ? MetroFramework.MetroThemeStyle.Dark : MetroFramework.MetroThemeStyle.Light;
         }
     }
 }

@@ -29,6 +29,7 @@ namespace JaguarShop.Forms
             string Description = RtbProductDescrip.Text;
             string price = NudProductPrice.Text;
             string color = string.Empty;
+
             if (CbxProductCBlack.Checked)
             {
                 color = CbxProductCBlack.Text;
@@ -83,6 +84,25 @@ namespace JaguarShop.Forms
                     MessageBoxButtons.OK,
                     MessageBoxIcon.Error);
             }
+        }
+
+        private void FrmAdmin_Load(object sender, EventArgs e)
+        {
+            ReadConfig();
+        }
+        private void ReadConfig()
+        {
+            AppConfigFile appConfigFile = new AppConfigFile();
+            appConfigFile.LoadAppConfig();
+            this.Theme = appConfigFile.Theme ? MetroFramework.MetroThemeStyle.Dark : MetroFramework.MetroThemeStyle.Light;
+        }
+
+        private void BtnReturn_Click(object sender, EventArgs e)
+        {
+            // Regresar a la pantalla principal
+            FrmCatalog catalog = new FrmCatalog();
+            catalog.Show();
+            this.Close();
         }
     }
 }

@@ -3,20 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\diede\\Desktop\\Programming Lenguages\\PROYECTOS\\JaguarShop\\JaguarShop-PF\\JaguarShop\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{182ED5AE-EC46-434D-9096-CE35F34948C2}|JaguarShop\\JaguarShop.csproj|c:\\users\\diede\\desktop\\programming lenguages\\proyectos\\jaguarshop\\jaguarshop-pf\\jaguarshop\\jaguarshop\\dao\\userdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{182ED5AE-EC46-434D-9096-CE35F34948C2}|JaguarShop\\JaguarShop.csproj|solutionrelative:jaguarshop\\dao\\userdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{182ED5AE-EC46-434D-9096-CE35F34948C2}|JaguarShop\\JaguarShop.csproj|c:\\users\\diede\\desktop\\programming lenguages\\proyectos\\jaguarshop\\jaguarshop-pf\\jaguarshop\\jaguarshop\\forms\\frmcatalog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{182ED5AE-EC46-434D-9096-CE35F34948C2}|JaguarShop\\JaguarShop.csproj|solutionrelative:jaguarshop\\forms\\frmcatalog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{182ED5AE-EC46-434D-9096-CE35F34948C2}|JaguarShop\\JaguarShop.csproj|c:\\users\\diede\\desktop\\programming lenguages\\proyectos\\jaguarshop\\jaguarshop-pf\\jaguarshop\\jaguarshop\\dao\\productdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{182ED5AE-EC46-434D-9096-CE35F34948C2}|JaguarShop\\JaguarShop.csproj|solutionrelative:jaguarshop\\dao\\productdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{182ED5AE-EC46-434D-9096-CE35F34948C2}|JaguarShop\\JaguarShop.csproj|c:\\users\\diede\\desktop\\programming lenguages\\proyectos\\jaguarshop\\jaguarshop-pf\\jaguarshop\\jaguarshop\\forms\\frmcatalog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{182ED5AE-EC46-434D-9096-CE35F34948C2}|JaguarShop\\JaguarShop.csproj|solutionrelative:jaguarshop\\forms\\frmcatalog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{182ED5AE-EC46-434D-9096-CE35F34948C2}|JaguarShop\\JaguarShop.csproj|c:\\users\\diede\\desktop\\programming lenguages\\proyectos\\jaguarshop\\jaguarshop-pf\\jaguarshop\\jaguarshop\\forms\\frmadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{182ED5AE-EC46-434D-9096-CE35F34948C2}|JaguarShop\\JaguarShop.csproj|solutionrelative:jaguarshop\\forms\\frmadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{182ED5AE-EC46-434D-9096-CE35F34948C2}|JaguarShop\\JaguarShop.csproj|c:\\users\\diede\\desktop\\programming lenguages\\proyectos\\jaguarshop\\jaguarshop-pf\\jaguarshop\\jaguarshop\\forms\\frmaboutus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{182ED5AE-EC46-434D-9096-CE35F34948C2}|JaguarShop\\JaguarShop.csproj|solutionrelative:jaguarshop\\forms\\frmaboutus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{182ED5AE-EC46-434D-9096-CE35F34948C2}|JaguarShop\\JaguarShop.csproj|C:\\Users\\diede\\Desktop\\Programming Lenguages\\PROYECTOS\\JaguarShop\\JaguarShop-PF\\JaguarShop\\jaguarshop\\forms\\frmadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{182ED5AE-EC46-434D-9096-CE35F34948C2}|JaguarShop\\JaguarShop.csproj|c:\\users\\diede\\desktop\\programming lenguages\\proyectos\\jaguarshop\\jaguarshop-pf\\jaguarshop\\jaguarshop\\forms\\frmregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{182ED5AE-EC46-434D-9096-CE35F34948C2}|JaguarShop\\JaguarShop.csproj|solutionrelative:jaguarshop\\forms\\frmregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{182ED5AE-EC46-434D-9096-CE35F34948C2}|JaguarShop\\JaguarShop.csproj|c:\\users\\diede\\desktop\\programming lenguages\\proyectos\\jaguarshop\\jaguarshop-pf\\jaguarshop\\jaguarshop\\forms\\frmadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{182ED5AE-EC46-434D-9096-CE35F34948C2}|JaguarShop\\JaguarShop.csproj|solutionrelative:jaguarshop\\forms\\frmadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{182ED5AE-EC46-434D-9096-CE35F34948C2}|JaguarShop\\JaguarShop.csproj|c:\\users\\diede\\desktop\\programming lenguages\\proyectos\\jaguarshop\\jaguarshop-pf\\jaguarshop\\jaguarshop\\forms\\frmappconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{182ED5AE-EC46-434D-9096-CE35F34948C2}|JaguarShop\\JaguarShop.csproj|solutionrelative:jaguarshop\\forms\\frmappconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{182ED5AE-EC46-434D-9096-CE35F34948C2}|JaguarShop\\JaguarShop.csproj|c:\\users\\diede\\desktop\\programming lenguages\\proyectos\\jaguarshop\\jaguarshop-pf\\jaguarshop\\jaguarshop\\forms\\frmbuy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{182ED5AE-EC46-434D-9096-CE35F34948C2}|JaguarShop\\JaguarShop.csproj|solutionrelative:jaguarshop\\forms\\frmbuy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,52 +50,101 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UserDao.cs",
-              "DocumentMoniker": "C:\\Users\\diede\\Desktop\\Programming Lenguages\\PROYECTOS\\JaguarShop\\JaguarShop-PF\\JaguarShop\\JaguarShop\\Dao\\UserDao.cs",
-              "RelativeDocumentMoniker": "JaguarShop\\Dao\\UserDao.cs",
-              "ToolTip": "C:\\Users\\diede\\Desktop\\Programming Lenguages\\PROYECTOS\\JaguarShop\\JaguarShop-PF\\JaguarShop\\JaguarShop\\Dao\\UserDao.cs",
-              "RelativeToolTip": "JaguarShop\\Dao\\UserDao.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-02T05:12:42.349Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ProductDao.cs",
-              "DocumentMoniker": "C:\\Users\\diede\\Desktop\\Programming Lenguages\\PROYECTOS\\JaguarShop\\JaguarShop-PF\\JaguarShop\\JaguarShop\\Dao\\ProductDao.cs",
-              "RelativeDocumentMoniker": "JaguarShop\\Dao\\ProductDao.cs",
-              "ToolTip": "C:\\Users\\diede\\Desktop\\Programming Lenguages\\PROYECTOS\\JaguarShop\\JaguarShop-PF\\JaguarShop\\JaguarShop\\Dao\\ProductDao.cs",
-              "RelativeToolTip": "JaguarShop\\Dao\\ProductDao.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwCcAAAAAAAAAAAAAAA==",
+              "Title": "FrmCatalog.cs",
+              "DocumentMoniker": "C:\\Users\\diede\\Desktop\\Programming Lenguages\\PROYECTOS\\JaguarShop\\JaguarShop-PF\\JaguarShop\\JaguarShop\\Forms\\FrmCatalog.cs",
+              "RelativeDocumentMoniker": "JaguarShop\\Forms\\FrmCatalog.cs",
+              "ToolTip": "C:\\Users\\diede\\Desktop\\Programming Lenguages\\PROYECTOS\\JaguarShop\\JaguarShop-PF\\JaguarShop\\JaguarShop\\Forms\\FrmCatalog.cs",
+              "RelativeToolTip": "JaguarShop\\Forms\\FrmCatalog.cs",
+              "ViewState": "AgIAAJkAAAAAAAAAAAAuwKkAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-02T05:12:36.746Z",
+              "WhenOpened": "2024-12-05T03:31:31.459Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
+              "Title": "FrmRegister.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\diede\\Desktop\\Programming Lenguages\\PROYECTOS\\JaguarShop\\JaguarShop-PF\\JaguarShop\\JaguarShop\\Forms\\FrmRegister.cs",
+              "RelativeDocumentMoniker": "JaguarShop\\Forms\\FrmRegister.cs",
+              "ToolTip": "C:\\Users\\diede\\Desktop\\Programming Lenguages\\PROYECTOS\\JaguarShop\\JaguarShop-PF\\JaguarShop\\JaguarShop\\Forms\\FrmRegister.cs [Dise\u00F1o]",
+              "RelativeToolTip": "JaguarShop\\Forms\\FrmRegister.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T03:29:40.72Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FrmCatalog.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\diede\\Desktop\\Programming Lenguages\\PROYECTOS\\JaguarShop\\JaguarShop-PF\\JaguarShop\\JaguarShop\\Forms\\FrmCatalog.cs",
+              "RelativeDocumentMoniker": "JaguarShop\\Forms\\FrmCatalog.cs",
+              "ToolTip": "C:\\Users\\diede\\Desktop\\Programming Lenguages\\PROYECTOS\\JaguarShop\\JaguarShop-PF\\JaguarShop\\JaguarShop\\Forms\\FrmCatalog.cs [Dise\u00F1o]",
+              "RelativeToolTip": "JaguarShop\\Forms\\FrmCatalog.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T03:29:38.771Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FrmBuy.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\diede\\Desktop\\Programming Lenguages\\PROYECTOS\\JaguarShop\\JaguarShop-PF\\JaguarShop\\JaguarShop\\Forms\\FrmBuy.cs",
+              "RelativeDocumentMoniker": "JaguarShop\\Forms\\FrmBuy.cs",
+              "ToolTip": "C:\\Users\\diede\\Desktop\\Programming Lenguages\\PROYECTOS\\JaguarShop\\JaguarShop-PF\\JaguarShop\\JaguarShop\\Forms\\FrmBuy.cs [Dise\u00F1o]",
+              "RelativeToolTip": "JaguarShop\\Forms\\FrmBuy.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T03:29:36.814Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FrmAppConfig.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\diede\\Desktop\\Programming Lenguages\\PROYECTOS\\JaguarShop\\JaguarShop-PF\\JaguarShop\\JaguarShop\\Forms\\FrmAppConfig.cs",
+              "RelativeDocumentMoniker": "JaguarShop\\Forms\\FrmAppConfig.cs",
+              "ToolTip": "C:\\Users\\diede\\Desktop\\Programming Lenguages\\PROYECTOS\\JaguarShop\\JaguarShop-PF\\JaguarShop\\JaguarShop\\Forms\\FrmAppConfig.cs [Dise\u00F1o]",
+              "RelativeToolTip": "JaguarShop\\Forms\\FrmAppConfig.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T03:29:20.648Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "FrmAdmin.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\diede\\Desktop\\Programming Lenguages\\PROYECTOS\\JaguarShop\\JaguarShop-PF\\JaguarShop\\JaguarShop\\Forms\\FrmAdmin.cs",
               "RelativeDocumentMoniker": "JaguarShop\\Forms\\FrmAdmin.cs",
               "ToolTip": "C:\\Users\\diede\\Desktop\\Programming Lenguages\\PROYECTOS\\JaguarShop\\JaguarShop-PF\\JaguarShop\\JaguarShop\\Forms\\FrmAdmin.cs [Dise\u00F1o]",
               "RelativeToolTip": "JaguarShop\\Forms\\FrmAdmin.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-02T04:43:46.375Z"
+              "WhenOpened": "2024-12-05T03:28:56.859Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "FrmAboutUs.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\diede\\Desktop\\Programming Lenguages\\PROYECTOS\\JaguarShop\\JaguarShop-PF\\JaguarShop\\JaguarShop\\Forms\\FrmAboutUs.cs",
               "RelativeDocumentMoniker": "JaguarShop\\Forms\\FrmAboutUs.cs",
               "ToolTip": "C:\\Users\\diede\\Desktop\\Programming Lenguages\\PROYECTOS\\JaguarShop\\JaguarShop-PF\\JaguarShop\\JaguarShop\\Forms\\FrmAboutUs.cs [Dise\u00F1o]",
               "RelativeToolTip": "JaguarShop\\Forms\\FrmAboutUs.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-02T04:43:37.808Z",
+              "WhenOpened": "2024-12-05T03:28:55.849Z",
               "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FrmAdmin.cs",
+              "DocumentMoniker": "C:\\Users\\diede\\Desktop\\Programming Lenguages\\PROYECTOS\\JaguarShop\\JaguarShop-PF\\JaguarShop\\JaguarShop\\Forms\\FrmAdmin.cs",
+              "RelativeDocumentMoniker": "JaguarShop\\Forms\\FrmAdmin.cs",
+              "ToolTip": "C:\\Users\\diede\\Desktop\\Programming Lenguages\\PROYECTOS\\JaguarShop\\JaguarShop-PF\\JaguarShop\\JaguarShop\\Forms\\FrmAdmin.cs",
+              "RelativeToolTip": "JaguarShop\\Forms\\FrmAdmin.cs",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAYwGgAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T03:34:39.73Z",
+              "EditorCaption": ""
             }
           ]
         }

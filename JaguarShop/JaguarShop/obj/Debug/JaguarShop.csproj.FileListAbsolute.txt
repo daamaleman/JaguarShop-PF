@@ -35,3 +35,4 @@ C:\Users\diede\Desktop\Programming Lenguages\PROYECTOS\JaguarShop\JaguarShop-PF\
 C:\Users\diede\Desktop\Programming Lenguages\PROYECTOS\JaguarShop\JaguarShop-PF\JaguarShop\JaguarShop\bin\Debug\MetroFramework.dll
 C:\Users\diede\Desktop\Programming Lenguages\PROYECTOS\JaguarShop\JaguarShop-PF\JaguarShop\JaguarShop\bin\Debug\MetroFramework.Fonts.dll
 C:\Users\diede\Desktop\Programming Lenguages\PROYECTOS\JaguarShop\JaguarShop-PF\JaguarShop\JaguarShop\obj\Debug\JaguarShop.csproj.Up2Date
+C:\Users\diede\Desktop\Programming Lenguages\PROYECTOS\JaguarShop\JaguarShop-PF\JaguarShop\JaguarShop\obj\Debug\JaguarShop.Forms.FrmAppConfig.resources

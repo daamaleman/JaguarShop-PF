@@ -197,6 +197,7 @@
             this.Resizable = false;
             this.Text = "Iniciar Sesion";
             this.TextAlign = MetroFramework.Forms.MetroFormTextAlign.Center;
+            this.Load += new System.EventHandler(this.FrmLogin_Load);
             ((System.ComponentModel.ISupportInitialize)(this.PbxLoginLogo)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

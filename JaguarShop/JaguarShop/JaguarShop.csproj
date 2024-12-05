@@ -69,6 +69,12 @@
     <Compile Include="Forms\FrmAdmin.Designer.cs">
       <DependentUpon>FrmAdmin.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\FrmAppConfig.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmAppConfig.Designer.cs">
+      <DependentUpon>FrmAppConfig.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\FrmBuy.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -97,6 +103,7 @@
     <Compile Include="Models\User.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\AppConfigFile.cs" />
     <Compile Include="Services\ProductFile.cs" />
     <Compile Include="Services\ProductServices.cs" />
     <Compile Include="Services\RegisterFiles.cs" />
@@ -105,6 +112,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\FrmAdmin.resx">
       <DependentUpon>FrmAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmAppConfig.resx">
+      <DependentUpon>FrmAppConfig.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\FrmBuy.resx">
       <DependentUpon>FrmBuy.cs</DependentUpon>
@@ -150,6 +160,30 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Gorra UAM.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\return.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\agregado.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\verificar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Informacion.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\config.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Admin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Guardar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cerrar-sesion.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

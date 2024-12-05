@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using JaguarShop.Services;
 
 namespace JaguarShop.Forms
 {
@@ -24,6 +25,18 @@ namespace JaguarShop.Forms
             FrmCatalog frmCatalog = new FrmCatalog();
             // Show the FrmCatalog form
             frmCatalog.Show();
+        }
+
+        private void FrmAboutUs_Load(object sender, EventArgs e)
+        {
+            ReadConfig();
+        }
+
+        private void ReadConfig()
+        {
+            AppConfigFile appConfigFile = new AppConfigFile();
+            appConfigFile.LoadAppConfig();
+            this.Theme = appConfigFile.Theme ? MetroFramework.MetroThemeStyle.Dark : MetroFramework.MetroThemeStyle.Light;
         }
     }
 }

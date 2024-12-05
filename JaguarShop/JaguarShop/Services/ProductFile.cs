@@ -24,7 +24,7 @@ namespace JaguarShop.Services
             {
                 writer.WriteLine("-------------------------------");
                 writer.WriteLine("ID del Producto: " + product.Id);
-                writer.WriteLine("Nombre del Producto: " + product.Name.Trim());
+                writer.WriteLine("Nombre del Producto: " + product.ProductName.Trim());
                 writer.WriteLine("Descripción: " + product.Description.Trim());
                 writer.WriteLine("Precio: " + product.Price);
                 writer.WriteLine("Colores: " + product.Colors);
@@ -52,7 +52,7 @@ namespace JaguarShop.Services
                     var project = new Product
                     {
                         Id = int.Parse(lines[i + 1].Split(':')[1].Trim()),
-                        Name = lines[i + 2].Split(':')[1].Trim(),
+                        ProductName = lines[i + 2].Split(':')[1].Trim(),
                         Description = lines[i + 3].Split(':')[1].Trim(),
                         Colors = lines[i + 4].Split(':')[1].Trim(),
                         Stock = int.Parse(lines[i + 5].Split(':')[1].Trim()),

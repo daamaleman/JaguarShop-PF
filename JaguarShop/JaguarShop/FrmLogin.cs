@@ -147,5 +147,16 @@ namespace JaguarShop
             register.Show();
             this.Hide();
         }
+
+        private void FrmLogin_Load(object sender, EventArgs e)
+        {
+            ReadConfig();
+        }
+        private void ReadConfig()
+        {
+            AppConfigFile appConfigFile = new AppConfigFile();
+            appConfigFile.LoadAppConfig();
+            this.Theme = appConfigFile.Theme ? MetroFramework.MetroThemeStyle.Dark : MetroFramework.MetroThemeStyle.Light;
+        }
     }
 }

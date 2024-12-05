@@ -1,16 +1,16 @@
 -------------------------------
-ID del Producto: 522
-Nombre del Producto: Hola
-Descripción: Hola buenas tardes
+ID del Producto: 804
+Nombre del Producto: Gorra
+Descripción: Bonita
 Precio: 100
 Colores: Negro
-Stock: 100
+Stock: 50
 -------------------------------
 -------------------------------
-ID del Producto: 516
-Nombre del Producto: Botella
-Descripción: Botella linda
-Precio: 1
-Colores: Negro
-Stock: 15
+ID del Producto: 119
+Nombre del Producto: Camisa
+Descripción: Muy bella
+Precio: 100
+Colores: Blanco
+Stock: 10
 -------------------------------

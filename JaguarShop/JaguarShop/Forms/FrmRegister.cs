@@ -137,7 +137,7 @@ namespace JaguarShop.Forms
         // Hacer que en el CIF solo se puedan ingresar numeros y que salte una alerta
         private void TxtRegisterCif_KeyPress(object sender, KeyPressEventArgs e)
         {
-            if (!char.IsDigit(e.KeyChar))
+            if (!char.IsDigit(e.KeyChar) && !char.IsControl(e.KeyChar))
             {
                 e.Handled = true;
                 MetroFramework.MetroMessageBox.Show(this, "El CIF no debe contener letras", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
@@ -172,6 +172,17 @@ namespace JaguarShop.Forms
                 TxtRegisterVPassword.PasswordChar = '*';
                 CbxSeeVPw.Text = "Ver";
             }
+        }
+
+        private void FrmRegister_Load(object sender, EventArgs e)
+        {
+            ReadConfig();
+        }
+        private void ReadConfig()
+        {
+            AppConfigFile appConfigFile = new AppConfigFile();
+            appConfigFile.LoadAppConfig();
+            this.Theme = appConfigFile.Theme ? MetroFramework.MetroThemeStyle.Dark : MetroFramework.MetroThemeStyle.Light;
         }
     }
 }
